@@ -1,4 +1,5 @@
 ﻿namespace XorEncryption;
+
 public class Program
 {
     static void Main(string[] args)
@@ -17,7 +18,7 @@ public class Program
 
         for (int i = 0; i < bytes.Length; i++)
         {
-            if (j >= maskList.Count-1)
+            if (j >= maskList.Count - 1)
             {
                 j = 0;
             }
